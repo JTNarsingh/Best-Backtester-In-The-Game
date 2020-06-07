@@ -25,8 +25,10 @@ ________________________________________________________________________________
 * Statistics - statistics is a structure that holds a bunch of useful statistics based on the strategy used in the back test like Total Return, Sharpe Ratio, Annualized Returns, Win Rate (Probability of Making Money), Max Draw Down, and Max Draw Down Time (in days).
 ____________________________________________________________________________________________________________________________
 ### Plot:
+
 If you chose to plot by setting the plot flag to '1' you will be greeted by this beautiful  subplot:
 ![Screen Shot 2020-06-07 at 1 04 53 AM](https://user-images.githubusercontent.com/29047827/83960816-153c8700-a85b-11ea-8d8c-90f2c082e16b.png)
+
 The top subplot is of your equity curve and shows the value of your portfolio over time, the bottome subplot is of your drawdowns in your portfolio. Draw downs are defined as any decrease in the portfolios value from its most recent maximum, meaning that if your portolio increases from 100 to 150 then decreases to 125 you would have a 16.67% drawdown.
 
 
